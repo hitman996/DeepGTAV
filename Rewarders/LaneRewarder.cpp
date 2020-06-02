@@ -1,6 +1,7 @@
 #include <map>
 #include "LaneRewarder.h"
 #include "../lib/tinyxml2.h"
+#include <stdexcept>
 
 LaneRewarder::LaneRewarder(const char* pathsfile) {
 	while (nodes.size() == 0) {
